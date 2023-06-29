@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Juego</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="campo-batalla">
+    <section id="seleccionar-ataque">
+    <h1 class="titulo" id="titulo">ELIGE TU ATAQUE</h1>
+    <img class="babosa-fuego" src="img/Babosa_Burpy,png.webp" alt="BURPY">
+    <img class="babosa-electrica" src="img/Babosa_Yulls.png" alt="YULLS">
+    <div class="tarjetas-ataques">
+    <button  class="boton-de-ataque"><img id="boton-fuego" src="img/gif-fuego.png" alt=""></button>
+    <button  class="boton-de-ataque"><img id="boton-agua" src="img/ataque-agua.png" alt=""></button>
+    <button  class="boton-de-ataque"><img id="boton-electrico" src="img/ataque-rayo.png" alt=""></button>
+    </div>
+    <div class="tarjetas-ataques">
+    <button class="boton-de-ataque"><img id="boton-fuego-defensa" src="img/gif-fuego.png" alt=""></button>
+    <button  class="boton-de-ataque"><img id="boton-agua-defensa" src="img/ataque-agua.png" alt=""></button>
+    <button  class="boton-de-ataque"><img id="boton-electrico-defensa" src="img/ataque-rayo.png" alt=""></button>
+    </div>
+      <div id="barra-de-vida" class="barra-contenedor"><div class="barra-vida"></div></div>
+      <div id= "barra-de-cpu" class="barra-enemigo"><div class="barra-vida-enemigo"></div></div>
+      <div class="caja">
+      <h1 class="mensaje" id="mensaje"></h1>
+      </div>
+    </section>
+    <script src="juego.js"></script>
+</body>
+</html>
